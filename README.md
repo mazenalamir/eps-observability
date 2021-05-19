@@ -1,4 +1,4 @@
-# Python module for checking partial observability of general nonlinear dynamical systems
+# Python module for checking partial observability of general nonlinear uncertain dynamical systems
 
 This modules implements the observability check proposed in the paper:
 
