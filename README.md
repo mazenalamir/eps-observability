@@ -65,6 +65,7 @@ certification framework.
 
 A Jupyter notebook that illustrate the use of the module. 
 
+
 ## References
 
 M. Alamir. Observability Certification and Optimal Design of Nonlinear Observation Parameters in the Presence of Measurement Noise and Model Mismatches. arXiv:2006.11112. June 2021 
