@@ -8,19 +8,20 @@ M. Alamir. Observability Certification and Optimal Design of Nonlinear Observati
 
 We consider general uncertain nonlinear dynamical system that can be described by a set of Ordinary Differential System (ODE) of the form:
 
-```
+```python
 def syst(x,t,u,p):
   ...
+  xdot=...
   return xdot
 ```
 where:
-- x stands for the state 
-- u stands for the exogenous input 
-- p stands for a vector of uncertain parameters
+- ```x``` stands for the state 
+- ```u``` stands for the exogenous input 
+- ```p``` stands for a vector of uncertain parameters
 
 Assume that sensors are available that provides outputs through a dedicated map such as:
 
-```
+```python
 def output(x, u, p):
 
     # The equation that defines the measured output other than the input u
@@ -38,7 +39,7 @@ the true values.
 ### The partial eps-observability 
 This version of the problem differs from the general above mentioned case by two features:
 
-1. The quantities that one is interested in reconstructing is not necessarily the whole extended vector (x,p). Rather a function z=T(x,p) is to be reconstructed which is called **the observation target**. 
+1. The quantities that one is interested in reconstructing is not necessarily the whole extended vector ```(x,p)```. Rather a function ```z=T(x,p)``` is to be reconstructed which is called **the observation target**. 
 2. One is not necessarily interested by a situation where a perfect reconstruction is possible but also by situation where on can be sure that the reconstruction error is lower than some eps>0
 
 Note that one commonly interesting 
