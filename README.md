@@ -4,7 +4,7 @@ This modules implements the observability check proposed in the paper:
 
 M. Alamir. Observability Certification and Optimal Design of Nonlinear Observation Parameters in the Presence of Measurement Noise and Model Mismatches. arXiv:2006.11112. June 2021
 
-code citation: 
+**Code citation**: 
 
 [![DOI](https://zenodo.org/badge/368786756.svg)](https://zenodo.org/badge/latestdoi/368786756)
 
